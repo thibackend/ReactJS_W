@@ -7,6 +7,7 @@ function App() {
     <div>
       <Tinhdiem />
       <Student />
+    <Themcainuane/>
     </div>
   );
 }
