@@ -8,9 +8,6 @@ function App() {
       <Tinhdiem />
       <Student />
     </div>
-    
-    
   );
 }
 export default App;
-  
