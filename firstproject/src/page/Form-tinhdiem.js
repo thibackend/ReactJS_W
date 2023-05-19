@@ -82,6 +82,9 @@ export default function Tinhdiem() {
         </label>
         <br />
         <input type="button"  value={'OK'}  onClick={handleSubmit}  />
+           <h1> Them moot hinh anh tai day<h1>
+           <h1> Them moot hinh anh tai day<h1>
+           <h1> Them moot hinh anh tai day<h1>
         </form>
     )
 }
