@@ -4,6 +4,7 @@ import Tinhdiem from './page/Form-tinhdiem';
 function App() {
   return (
     <Tinhdiem />
+    <Themnua />
     
   );
 }
