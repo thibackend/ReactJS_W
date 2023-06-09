@@ -22,7 +22,6 @@ const Addproduct = () => {
       .then(res => {console.log(alert(res.data.message));})
       .catch(err => { console.log(err); })
   }
-
   return (
     <form className="form-group my-5 mx-5">
       <label>

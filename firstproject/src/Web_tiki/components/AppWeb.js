@@ -5,6 +5,7 @@ import Admin from "./Admin";
 import Addproduct from "./Addproduct";
 import Edit from "./Edit";
 import Header from "./Header";
+import Cart from "./Cart";
 function AppwebTiki() {
   return (
     <>
@@ -17,6 +18,9 @@ function AppwebTiki() {
           <li className="nav-item">
             <Link className='nav-link' to="/product">product</Link>
           </li>
+          <li className="nav-item">
+            <Link className='nav-link' to="/cart">Cart</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
@@ -24,6 +28,8 @@ function AppwebTiki() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/add-product" element={<Addproduct />} />
         <Route path='/edit/:id' element={<Edit />} />
+        <Route path='/cart' element={<Cart />} />
+
       </Routes>
     </>
   );
