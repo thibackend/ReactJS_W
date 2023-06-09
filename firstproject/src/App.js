@@ -1,13 +1,10 @@
 import React from "react";
 import "./App.css";
-import Appweb from "./sale_phone_web_react/App";
-// import Tinhdiem from './page/Form-tinhdiem';
-// import Student from "./page/CRUD_MockAP";
+import AppwebTiki from "./Web_tiki/components/AppWeb";
+
 function App() {
   return (
-    <div>
-      <Appweb />
-    </div>  
-  );  
+    <AppwebTiki />
+  );
 }
 export default App;
