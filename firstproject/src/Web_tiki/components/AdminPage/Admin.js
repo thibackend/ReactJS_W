@@ -39,7 +39,7 @@ function Admin() {
     };
     return (
         <>
-            <button className="btn btn-primary" onClick={() => navigate('/add-product')}>ADD</button>
+            <button className="btn btn-primary" onClick={() => navigate('add')}>ADD</button>
             <table className="table table-striped">
                 <thead>
                     <tr>
@@ -68,7 +68,7 @@ function Admin() {
                                             Delete
                                         </button>
                                         {/* Add update functionality */}
-                                        <Link className="btn btn-primary py-2 px-2" to={`/edit/${item.id}`}>
+                                        <Link className="btn btn-primary py-2 px-2" to={`edit/${item.id}`}>
                                             Update
                                         </Link>
                                     </td>

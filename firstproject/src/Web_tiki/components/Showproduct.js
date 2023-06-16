@@ -2,8 +2,7 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from "react";
 import { Link, Outlet, Route, Routes } from "react-router-dom"
-import Addproduct from "./Addproduct";
-
+import Addproduct from "./AdminPage/Addproduct";
 export default function Showproduct() {
     const [data, setData] = useState([]);
     useEffect(() => {
@@ -15,6 +14,10 @@ export default function Showproduct() {
     const Edit = (data) =>{
         console.log(data);
     }
+    const aler =()=>{
+        alert("cam ơn bạn")
+    }
+    
     return (
         <>
             <div className="row d-flex justify-content-center">
@@ -28,7 +31,7 @@ export default function Showproduct() {
                                     <p className="card-text">{e.price}</p>
                                     <p className="card-text">{e.promote}</p>
                                     <p className="card-text">{e.sale_number}</p>
-                                    <a href="#" className="btn btn-primary">Buy</a>
+                                    <a  className="btn btn-primary" onClick={aler}>Buy</a>
                                 </div>
                             </div>
                         </div>

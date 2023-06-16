@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
-import AppwebTiki from "./Web_tiki/components/AppWeb";
-
+import Routers from "./Web_tiki/route";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <AppwebTiki />
+    <>
+      <BrowserRouter>
+        <Routers />
+      </BrowserRouter>
+    </>
   );
 }
 export default App;

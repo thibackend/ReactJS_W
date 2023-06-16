@@ -19,7 +19,7 @@ const Addproduct = () => {
       sale_number,
       promote
     })
-      .then(res => {console.log(alert(res.data.message));})
+      .then(res => { console.log(alert(res.data.message)); })
       .catch(err => { console.log(err); })
   }
   return (
@@ -86,7 +86,7 @@ const Addproduct = () => {
           placeholder="enter the total promote"
           type="number"
           name="promote"
-          onChange={(e) => { setpromote(e.target.value) }} 
+          onChange={(e) => { setpromote(e.target.value) }}
         />
       </label>
       <br />
